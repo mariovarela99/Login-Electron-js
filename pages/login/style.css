@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
 section.wrapper {
   width: 100%;
   height: 100vh;
@@ -12,10 +19,10 @@ section.wrapper {
 
 section.wrapper > div {
   background: #ffffff;
-  width: 300px;
+  width: 350px;
   height: 300px;
   padding: 20px;
-  border-radius: 35px;
+  border-radius: 25px;
 
   display: flex;
   align-items: center;
@@ -23,9 +30,80 @@ section.wrapper > div {
   flex-direction: column;
 }
 
+section.wrapper > div h1 {
+  margin-bottom: 15px;
+  font-weight: 700;
+  line-height: 2;
+  color: #232323;
+}
+
 section.wrapper > div form {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+section.wrapper > div form button,
+input {
+  width: 230px;
+  height: 36px;
+  margin: 4px auto;
+  border-radius: 25px;
+  border: 1px solid transparent;
+  padding: 7px 10px;
+  font-weight: 700;
+}
+
+section.wrapper > div form input {
+  background: #ebf0fc;
+}
+
+section.wrapper > div form button {
+  background: #007bff;
+  color: #ffffff;
+  text-align: center;
+}
+
+ul.social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  width: 100%;
+  position: relative;
+  bottom: -50px;
+}
+
+ul.social li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+ul.social li a {
+  text-decoration: none;
+  width: 32px;
+  height: 32px;
+  color: #ffffff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #cccccc;
+  border-radius: 50%;
+}
+
+a#facebook-icon {
+  background: #007bff;
+  font-weight: 900;
+}
+
+a#google-icon {
+  background: #dc3545;
+}
+a#twitter-icon {
+  background: #17a2b8;
 }
