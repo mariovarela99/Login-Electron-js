@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+input,
+button,
+textarea {
+  outline: 0;
+  border: 1px solid transparent;
+}
+
 html,
 body {
   min-height: 100vh;
