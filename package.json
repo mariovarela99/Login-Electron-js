@@ -1,0 +1,16 @@
+{
+  "name": "mv-desktop-first",
+  "version": "1.0.0",
+  "description": "Uma aplicação Desktop Básica com EletronJS",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "Electron"
+  ],
+  "author": "Mário Varela",
+  "devDependencies": {
+    "electron": "^12.0.5"
+  }
+}
