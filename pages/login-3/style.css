@@ -1,0 +1,105 @@
+section.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(45deg, #03dadd, #8f5ff1, #f803fe);
+}
+
+div.main {
+  width: 500px;
+  height: 500px;
+  background: #ffffff;
+  box-shadow: 2px 2px 5px #666666;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 25px;
+  position: absolute;
+  border-radius: 12px;
+}
+
+div.main h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+div.social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 7px auto;
+}
+
+div.social button {
+  width: 200px;
+  height: 45px;
+  box-shadow: 2px 2px 3px #666;
+  margin: 3px 5px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+div.social button#facebook {
+  color: #ffffff;
+  background: #3d599a;
+}
+
+form.main-form {
+  padding: 25px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+form.main-form label {
+  color: #232332;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+form.main-form label a {
+  font-weight: 500;
+  color: #666666;
+  margin-left: 5px;
+  text-transform: capitalize;
+}
+
+form.main-form input {
+  background: #f7f7f7;
+  height: 45px;
+  width: 100%;
+  margin: 10px auto 20px;
+  border-radius: 7px;
+  padding: 12px 12px 12px 15px;
+}
+
+form.main-form button {
+  height: 45px;
+  width: 100%;
+  background: #333333;
+  border-radius: 7px;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+div.main p {
+  color: #666666;
+  font-size: 14px;
+  line-height: 2;
+  font-weight: 500;
+  position: absolute;
+  bottom: 12px;
+}
+
+div.main p a {
+  color: inherit;
+  font-size: inherit;
+}
