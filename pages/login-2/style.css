@@ -1,0 +1,133 @@
+section.wrapper {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to top, #1b4ab4, #d13c8e 60%);
+}
+
+div.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 350px;
+  height: 550px;
+  background: #ffffff;
+  position: absolute;
+}
+
+div.main h2 {
+  font-size: 38px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+form.main-form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 16px;
+}
+
+form.main-form input[type="password"],
+input[type="email"] {
+  height: 42px;
+  width: 100%;
+  background: #e5e5e5;
+  margin: 5px auto;
+  padding: 12px 8px 12px 22px;
+  font-size: 17px;
+  color: rgb(36, 26, 26);
+}
+
+form.main-form fieldset {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+  margin: 10px 0 15px;
+}
+
+form.main-form input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+form.main-form input[type="checkbox"]:checked {
+  color: #d4408e;
+  background: #d4408e;
+}
+
+form.main-form label[for="remember"] {
+  color: #666666;
+  font-size: 14px;
+  margin-left: 3px;
+}
+
+form.main-form button#login {
+  width: 100%;
+  height: 42px;
+  color: #ffffff;
+  background: #d4408e;
+  margin-top: 15px;
+  margin-bottom: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+div.social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+div.social span {
+  width: 100%;
+  text-align: center;
+  color: #d3d3d3;
+  text-transform: capitalize;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+div.social button {
+  width: 48%;
+  margin: 3px auto;
+  border: 1px solid #d3d3d3;
+  padding: 10px 30px;
+  background: transparent;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+div.social button#facebook {
+  color: #1b4ab4;
+}
+
+div.main p {
+  position: absolute;
+  bottom: 12px;
+  justify-self: flex-end;
+  font-size: 14px;
+  color: #bdbaba;
+}
+
+div.main p a {
+  font-size: inherit;
+  color: inherit;
+}
