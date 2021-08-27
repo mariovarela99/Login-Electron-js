@@ -17,6 +17,16 @@ body {
   min-height: 100vh;
 }
 
+#root {
+  width: 100%;
+  min-height: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 #back-button {
   position: absolute;
   top: 10px;
@@ -25,6 +35,8 @@ body {
 }
 
 .main {
+  width: 100%;
+
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
