@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 input,
@@ -14,4 +15,86 @@ textarea {
 html,
 body {
   min-height: 100vh;
+}
+
+#root {
+  width: 100%;
+  min-height: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#back-button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #ffffff;
+}
+
+.main {
+  width: 100%;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+  padding: 20px;
+}
+
+.main div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+
+.main div a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 300px;
+  height: 200px;
+  text-decoration: none;
+  transition: all 0.4s;
+  overflow: hidden;
+  border-radius: 14px;
+}
+
+.main div a img {
+  width: 100%;
+  height: auto;
+  border-bottom-left-radius: 20px;
+  transition: all 0.4s;
+}
+
+.main div a img:hover {
+  transform: scale(1.5);
+  border-radius: 20px;
+}
+
+.main div a span {
+  font-size: 18px;
+  color: #f7f7f7;
+  text-decoration: none;
+  padding: 8px 10px;
+  background: #232323;
+  width: 100%;
+  transition: all 0.4s;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-top-right-radius: 20px;
+}
+
+.main div:hover ~ .main div span {
+  background: #111111;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 20px;
 }
