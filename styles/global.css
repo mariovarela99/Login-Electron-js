@@ -34,7 +34,7 @@ body {
   color: #ffffff;
 }
 
-.main {
+section.main {
   width: 100%;
 
   display: flex;
@@ -45,14 +45,14 @@ body {
   padding: 20px;
 }
 
-.main div {
+section.main div {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 5px;
 }
 
-.main div a {
+section.main div a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -65,19 +65,19 @@ body {
   border-radius: 14px;
 }
 
-.main div a img {
+section.main div a img {
   width: 100%;
   height: auto;
   border-bottom-left-radius: 20px;
   transition: all 0.4s;
 }
 
-.main div a img:hover {
+section.main div a img:hover {
   transform: scale(1.5);
   border-radius: 20px;
 }
 
-.main div a span {
+section.main div a span {
   font-size: 18px;
   color: #f7f7f7;
   text-decoration: none;
@@ -93,7 +93,7 @@ body {
   border-top-right-radius: 20px;
 }
 
-.main div:hover ~ .main div span {
+section.main div:hover ~ section.main div span {
   background: #111111;
   border-top-right-radius: 0px;
   border-top-left-radius: 20px;
