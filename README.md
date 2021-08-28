@@ -9,3 +9,7 @@ Basic Login With ElectronJS
 > Release v0.2
 
 ![Login V0.2](./assets/result/login-v0.2.png)
+
+> Release v0.3
+
+![Login v0.3](./assets/result/login-v0.3.png)
